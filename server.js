@@ -23,6 +23,6 @@ io.on('connection',(socket)=>{
     }, 1000)
 });
 
-app.listen(port, ()=>{
+http.listen(port, ()=>{
     console.log('express server started');
 });
